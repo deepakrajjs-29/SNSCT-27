@@ -27,8 +27,8 @@ export const Hero: React.FC = () => {
           <div className="mb-6">
             <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-xl border border-white/25 shadow-[0_8px_32px_rgba(0,0,0,0.4)] inline-block transition-transform duration-300 hover:scale-105">
               <img
-                src="/logo.png"
-                alt="SNS College of Technology Logo"
+                src="/main_logo.png"
+                alt="SNSECT 2027 Conference Logo"
                 className="h-20 sm:h-24 lg:h-28 w-auto object-contain drop-shadow-md"
               />
             </div>

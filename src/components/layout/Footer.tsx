@@ -41,9 +41,11 @@ export const Footer: React.FC = () => {
           {/* Brand column */}
           <div className="md:col-span-5 space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-md bg-[#b8963e] text-slate-950 flex items-center justify-center font-extrabold text-xs tracking-widest border border-[#e8c872]/40 shadow-xs">
-                SNS
-              </div>
+              <img
+                src="/logo.png"
+                alt="SNS College of Technology Logo"
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-xl font-extrabold text-white tracking-tight">
                 {CONFERENCE_INFO.shortTitle}
               </span>

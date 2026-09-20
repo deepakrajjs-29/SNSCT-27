@@ -316,13 +316,6 @@ export const COMMITTEE_GROUPS: CommitteeGroup[] = [
         affiliation: "Department of Electronics and Communication Engineering, SNSCT",
         countryOrLocation: "Coimbatore, India",
         highlight: true
-      },
-      {
-        name: "Dr. V. S. Nishok",
-        roleOrDesignation: "Associate Professor",
-        affiliation: "Department of Electronics and Communication Engineering, SNSCT",
-        countryOrLocation: "Coimbatore, India",
-        highlight: true
       }
     ]
   },

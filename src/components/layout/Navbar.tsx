@@ -66,8 +66,8 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 focus:outline-none shrink-0"
           >
             <img
-              src="/logo.png"
-              alt="SNS College of Technology Logo"
+              src="/main_logo.png"
+              alt="SNSECT 2027 Conference Logo"
               className="h-10 w-auto object-contain"
             />
             <div className="flex flex-col leading-tight">
