@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Animated Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,25&height=220&section=header&text=SNSECT’27&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=International%20Conference%20on%20Sustainable%20%26%20Novel%20Solutions%20in%20ECE&descAlignY=58&descAlign=50" width="100%" alt="SNSECT'27 Header Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,25&height=220&section=header&text=SNSECT’27&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=International%20Conference%20on%20Sustainable%20%26%20Novel%20Solutions%20in%20ECE&descAlignY=58&descAlign=50" width="100%" alt="SNSECT'27 Header Banner"/> 
 
   <!-- Animated Typing Text -->
   <a href="https://git.io/typing-svg">
