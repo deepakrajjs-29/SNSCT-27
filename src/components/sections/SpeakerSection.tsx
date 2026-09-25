@@ -24,7 +24,7 @@ export const SpeakerSection: React.FC = () => {
             <div className="lg:col-span-2 relative min-h-[260px] lg:min-h-0">
               <img
                 src="/speaker_keynote.jpg"
-                alt="Distinguished keynote speaker"
+                alt={speaker.name}
                 className="w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-transparent to-transparent" />
