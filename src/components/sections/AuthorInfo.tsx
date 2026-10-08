@@ -18,8 +18,7 @@ export const AuthorInfo: React.FC = () => {
         
         <SectionHeading
           badgeText="AUTHOR DESK"
-          title="Author Information & Springer CRC Guidelines"
-          subtitle="Authors must prepare their manuscripts strictly in accordance with Springer Lecture Notes in Electrical Engineering (LNEE) format."
+          title="Author Desk and Camera Ready Copy (CRC) Guidelines"
           centered={true}
         />
 

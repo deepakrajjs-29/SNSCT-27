@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className="text-center p-3 rounded-xl bg-white/5 border border-white/5">
               <p className="text-[11px] font-bold uppercase tracking-widest mb-1 text-[#e8c872]">Published In</p>
-              <p className="text-sm sm:text-base font-bold text-white">Springer LNEE (Scopus)</p>
+              <p className="text-xs sm:text-sm font-bold text-white leading-tight">WILL BE PUBLISHED IN SCOPUS INDEXED JOURNAL</p>
             </div>
           </div>
 
