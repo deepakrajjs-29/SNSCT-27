@@ -9,7 +9,7 @@ export const SubmissionSection: React.FC = () => {
     {
       number: "01",
       title: "Format Manuscript",
-      description: "Prepare manuscript using official Springer LNEE single-column template (Word or LaTeX)."
+      description: "Prepare manuscript using official single-column template (Word or LaTeX)."
     },
     {
       number: "02",

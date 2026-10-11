@@ -323,7 +323,7 @@ export const COMMITTEE_GROUPS: CommitteeGroup[] = [
     id: "publication-chairs",
     title: "Publication Chairs",
     category: "Chairs",
-    badgeText: "Springer Proceedings",
+    badgeText: "Conference Proceedings",
     members: [
       {
         name: "Dr. M. Siva Ramkumar",

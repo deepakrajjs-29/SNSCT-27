@@ -8,8 +8,8 @@ export interface AuthorGuidelineItem {
 export const AUTHOR_GUIDELINES = {
   generalRules: [
     "Manuscripts must represent original, unpublished research that is not currently under review with any other journal or conference.",
-    "All submissions must strictly adhere to the official Springer Conference Proceedings single-column format (Lecture Notes in Electrical Engineering - LNEE).",
-    "Do NOT use the IEEE double-column format. Papers submitted in non-Springer templates will not be reviewed.",
+    "All submissions must strictly adhere to the official conference proceedings single-column format.",
+    "Do NOT use the IEEE double-column format. Papers submitted in non-compliant templates will not be reviewed.",
     "The manuscript must clearly specify all author names, complete institutional affiliations, official email addresses, and country.",
     "The corresponding author must be clearly designated with an asterisk (*) along with their primary contact email.",
     "Do NOT include author biographies, profiles, or photographs at the end of the manuscript.",
@@ -18,7 +18,7 @@ export const AUTHOR_GUIDELINES = {
     "LaTeX submissions must include a clean .ZIP archive containing all .tex source files, figures, style files (.cls/.sty), and BibTeX (.bib) files."
   ],
   pageLimitsNotice: {
-    officialRequirement: "As per official Springer proceedings guidelines, papers should be at least 10 pages in the standard Springer single-column template. Papers less than 10 pages will not be considered for publication. Articles extending beyond 12 pages may attract applicable extra page charges (₹50/page for national authors; $5/page for international authors).",
+    officialRequirement: "As per conference proceedings guidelines, papers should be at least 10 pages in the standard single-column template. Papers less than 10 pages will not be considered for publication. Articles extending beyond 12 pages may attract applicable extra page charges (₹50/page for national authors; $5/page for international authors).",
     submissionNote: "Submission Portal Statement: Papers must not exceed 10 pages.",
     authorClarification: "Author clarification: The supplied conference specification contains differing page-limit statements. Authors should verify the applicable requirement with the organizing committee before submission."
   },
@@ -26,7 +26,7 @@ export const AUTHOR_GUIDELINES = {
     "Final Camera-Ready Copy (CRC) must incorporate all peer-review feedback, corrections, and reviewer suggestions.",
     "The camera-ready version is strictly used for compiling the official conference schedule, certificates, souvenir, and proceedings preparation.",
     "All author details and affiliations in the final CRC will be printed exactly as submitted; no post-acceptance author additions or alterations are permitted.",
-    "A signed Springer Consent-to-Publish (Copyright Transfer) form will be required from the corresponding author upon acceptance."
+    "A signed Consent-to-Publish (Copyright Transfer) form will be required from the corresponding author upon acceptance."
   ]
 };
 

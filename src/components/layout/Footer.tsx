@@ -98,14 +98,14 @@ export const Footer: React.FC = () => {
             <div className="flex items-start gap-3 p-4 rounded-lg bg-white/5 border border-white/8">
               <BookOpen className="w-4 h-4 text-[#c9a84c] shrink-0 mt-0.5" />
               <div className="space-y-1 text-xs text-slate-300 leading-relaxed">
-                <p className="font-bold text-[#f3d688]">Springer LNEE</p>
-                <p className="text-slate-300">Lecture Notes in Electrical Engineering</p>
-                <p className="text-slate-400">Scopus Indexed &amp; Peer Reviewed</p>
+                <p className="font-bold text-[#f3d688]">Conference Proceedings</p>
+                <p className="text-slate-300">Scopus Indexed Publication</p>
+                <p className="text-slate-400">Peer Reviewed Volumes</p>
               </div>
             </div>
 
             <p className="text-[11px] text-slate-400 leading-relaxed">
-              Selected papers planned for publication subject to Springer quality review and acceptance criteria.
+              Selected papers planned for publication subject to peer review and acceptance criteria.
             </p>
           </div>
 

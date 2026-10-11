@@ -12,10 +12,10 @@ export const CONFIG = {
   REGISTRATION_URL: "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F", // Registration Form / Portal URL
   PAYMENT_URL: "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F", // Payment Gateway / Portal URL
   
-  // Springer Conference Templates
-  WORD_TEMPLATE_URL: "https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines", // Springer Proceedings Word Template Guidelines
-  LATEX_TEMPLATE_URL: "https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines", // Springer Proceedings LaTeX Template Guidelines
-  SPRINGER_LNEE_URL: "https://www.springer.com/series/7818", // Springer Lecture Notes in Electrical Engineering
+  // Conference Proceedings Templates
+  WORD_TEMPLATE_URL: "https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines", // Proceedings Word Template Guidelines
+  LATEX_TEMPLATE_URL: "https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines", // Proceedings LaTeX Template Guidelines
+  SPRINGER_LNEE_URL: "https://www.springer.com/series/7818",
   
   // Campus & Map Directions
   MAP_URL: "https://maps.google.com/?q=SNS+College+of+Technology+Coimbatore",

@@ -22,7 +22,7 @@ export const AuthorInfo: React.FC = () => {
           centered={true}
         />
 
-        {/* Springer Template Download Actions */}
+        {/* Template Download Actions */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 max-w-4xl mx-auto">
           
           <div className="p-6 rounded-lg bg-white border border-slate-200 flex flex-col justify-between space-y-4">
@@ -30,11 +30,11 @@ export const AuthorInfo: React.FC = () => {
               <div className="flex items-center gap-2 mb-2">
                 <FileText className="w-5 h-5 text-[#c9a84c]" />
                 <h3 className="text-base font-bold text-slate-900">
-                  Springer Word Template (.docx)
+                  Word Template (.docx)
                 </h3>
               </div>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Official single-column Microsoft Word template for LNEE conference proceedings. Includes styles for headings, equations, and references.
+                Official single-column Microsoft Word template for conference proceedings. Includes styles for headings, equations, and references.
               </p>
             </div>
             <div className="pt-2">
@@ -56,11 +56,11 @@ export const AuthorInfo: React.FC = () => {
               <div className="flex items-center gap-2 mb-2">
                 <FileCode className="w-5 h-5 text-[#c9a84c]" />
                 <h3 className="text-base font-bold text-slate-900">
-                  Springer LaTeX Package (.zip)
+                  LaTeX Package (.zip)
                 </h3>
               </div>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Official Springer llncs LaTeX package with document classes, BibTeX styles, and formatting documentation for mathematical models.
+                Official LaTeX package with document classes, BibTeX styles, and formatting documentation for mathematical models.
               </p>
             </div>
             <div className="pt-2">

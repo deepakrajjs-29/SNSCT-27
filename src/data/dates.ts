@@ -62,7 +62,7 @@ export const IMPORTANT_DATES: TimelineEvent[] = [
     title: "Camera Ready Copy Submission",
     dateStr: "25 January 2027",
     isoDate: "2027-01-25T23:59:59+05:30",
-    description: "Submission of final, Springer-formatted camera-ready manuscripts with consent forms.",
+    description: "Submission of final camera-ready manuscripts with consent forms.",
     status: "upcoming",
     badgeText: "Final CRC"
   },

@@ -3,8 +3,8 @@ import { CONFERENCE_INFO } from '../../data/conference';
 
 const creds = [
   {
-    label: 'Springer LNEE',
-    detail: 'Lecture Notes in Electrical Engineering',
+    label: 'Conference Proceedings',
+    detail: 'Scopus Indexed Series',
     accent: true,
   },
   {

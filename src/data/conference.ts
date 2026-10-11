@@ -22,8 +22,8 @@ export const CONFERENCE_INFO: ConferenceMetadata = {
   address: "SNS Kalvi Nagar, Sathy Main Road (NH-209), Vazhiampalayam, Saravanampatti Post, Coimbatore - 641 035, Tamil Nadu, India",
   datesText: "11 – 12 March 2027",
   submissionDeadlineText: "30 November 2026",
-  publicationBannerText: "Springer LNEE · Scopus Indexed · Peer Reviewed · Two Volumes",
-  publicationDisclaimer: "Selected high-quality papers are planned for publication in Springer’s Lecture Notes in Electrical Engineering (LNEE), indexed in Scopus, subject to peer review, Springer quality checks and approval.",
+  publicationBannerText: "Scopus Indexed · Peer Reviewed · Two Volumes",
+  publicationDisclaimer: "Selected high-quality papers are planned for publication in Scopus-indexed conference proceedings, subject to peer review, quality checks, and final approval.",
 };
 
 export const ABOUT_CONFERENCE = {

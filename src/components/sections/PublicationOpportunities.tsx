@@ -2,14 +2,14 @@ import React from 'react';
 import { SectionHeading } from '../common/SectionHeading';
 import { CONFERENCE_INFO } from '../../data/conference';
 import { CONFIG } from '../../data/config';
-import { BookOpen, Award, ShieldCheck, Layers, ExternalLink } from 'lucide-react';
+import { BookOpen, Award, ShieldCheck, Layers } from 'lucide-react';
 import { CTAButton } from '../common/CTAButton';
 
 export const PublicationOpportunities: React.FC = () => {
   const highlights = [
     {
-      title: "Lecture Notes in Electrical Engineering (LNEE)",
-      desc: "Springer's premier book series reporting substantial advances in electrical, electronic, and communication systems.",
+      title: "Conference Proceedings",
+      desc: "Premier proceedings publication reporting substantial advances in electrical, electronic, and communication systems.",
       icon: BookOpen
     },
     {
@@ -34,28 +34,28 @@ export const PublicationOpportunities: React.FC = () => {
       <div className="max-w-[1480px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         
         <SectionHeading
-          badgeText="SPRINGER PROCEEDINGS"
+          badgeText="CONFERENCE PROCEEDINGS"
           title="Publication Opportunities"
-          subtitle="Disseminating high-impact research to the global academic community through Springer's prestigious proceedings series."
+          subtitle="Disseminating high-impact research to the global academic community through prestigious peer-reviewed proceedings series."
           centered={true}
         />
 
-        {/* Springer LNEE Academic Showcase with Image */}
+        {/* Academic Showcase with Image */}
         <div className="max-w-5xl mx-auto rounded-2xl bg-white border border-slate-200 shadow-xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12">
             
             {/* Left: Book & Journal Showcase Image */}
             <div className="lg:col-span-5 relative min-h-[320px] lg:min-h-full overflow-hidden bg-gradient-to-br from-slate-900 via-navy-950 to-slate-900 flex flex-col items-center justify-center p-6 sm:p-8">
-              <div className="relative group">
+              <div className="relative group w-full flex justify-center">
                 <img
-                  src="/lnee_book_cover.png"
-                  alt="Springer Nature - Lecture Notes in Electrical Engineering (LNEE)"
-                  className="w-full max-w-[240px] sm:max-w-[260px] h-auto object-contain rounded-lg shadow-2xl border border-white/10 transition-transform duration-300 group-hover:scale-105"
+                  src="/scopus_proceedings.jpg"
+                  alt="International Conference Proceedings (Scopus Indexed) - Volumes I & II"
+                  className="w-full max-w-[320px] sm:max-w-[360px] h-auto object-contain rounded-xl shadow-2xl border border-white/10 transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="mt-4 text-center">
                 <span className="inline-block px-3 py-1 rounded-md bg-[#c9a84c] text-navy-950 text-[11px] font-extrabold uppercase tracking-wider shadow-md">
-                  Scopus Indexed · Springer LNEE
+                  Scopus Indexed · Two Dedicated Volumes
                 </span>
               </div>
             </div>
@@ -65,7 +65,7 @@ export const PublicationOpportunities: React.FC = () => {
               <div className="space-y-4">
                 <div className="flex flex-wrap gap-2 items-center">
                   <span className="text-xs font-bold uppercase tracking-wider text-[#d4b96a] bg-teal-900/30 px-2.5 py-1 rounded-md border border-[#b8963e]">
-                    Springer Nature
+                    Peer-Reviewed Proceedings
                   </span>
                   <span className="text-xs font-bold uppercase tracking-wider text-amber-800 bg-yellow-900/40 px-2.5 py-1 rounded-md border border-[#a07830]">
                     Scopus Indexed
@@ -76,7 +76,7 @@ export const PublicationOpportunities: React.FC = () => {
                 </div>
 
                 <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  Lecture Notes in Electrical Engineering (LNEE)
+                  International Conference Proceedings (Scopus Indexed)
                 </h3>
 
                 {/* Official Conditional Statement */}
@@ -86,28 +86,28 @@ export const PublicationOpportunities: React.FC = () => {
                 </div>
 
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  Springer's LNEE series is indexed in major academic databases including EI Compendex, Scopus, INSPEC, and SCImago. Authors will receive electronic copy access upon final publication.
+                  The conference proceedings will be submitted for indexing in major academic databases including EI Compendex, Scopus, INSPEC, and SCImago. Authors will receive electronic copy access upon final publication.
                 </p>
 
                 <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                   <CTAButton
-                    href={CONFIG.SPRINGER_LNEE_URL}
-                    isExternal={true}
-                    variant="primary"
-                    size="md"
-                    icon="external"
-                    className="w-full sm:w-auto"
-                  >
-                    Visit Springer LNEE Series
-                  </CTAButton>
-                  <CTAButton
                     href="#author-info"
-                    variant="outline"
+                    variant="primary"
                     size="md"
                     icon="none"
                     className="w-full sm:w-auto"
                   >
                     View Author Guidelines
+                  </CTAButton>
+                  <CTAButton
+                    href={CONFIG.SUBMISSION_URL}
+                    isExternal={true}
+                    variant="outline"
+                    size="md"
+                    icon="external"
+                    className="w-full sm:w-auto"
+                  >
+                    Submit Paper
                   </CTAButton>
                 </div>
               </div>

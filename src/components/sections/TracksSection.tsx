@@ -46,7 +46,7 @@ export const TracksSection: React.FC = () => {
                 Covering Semiconductor Physics, VLSI &amp; Embedded Systems, 6G Wireless Networks, Quantum Computing, AI/ML Architectures, and Green Energy Harvesting.
               </p>
               <div className="flex items-center gap-4 pt-1 text-xs text-[#f3d688] font-semibold">
-                <span className="flex items-center gap-1.5"><Layers className="w-4 h-4" /> Springer LNEE Indexed</span>
+                <span className="flex items-center gap-1.5"><Layers className="w-4 h-4" /> Scopus Indexed Proceedings</span>
                 <span>•</span>
                 <span>Double-Blind Peer Reviewed</span>
               </div>
@@ -135,7 +135,7 @@ export const TracksSection: React.FC = () => {
 
                     <div className="pt-3 flex items-center justify-between flex-wrap gap-3 text-xs border-t border-slate-200/60">
                       <span className="text-slate-500">
-                        Selected papers planned for publication in Springer LNEE (Scopus Indexed).
+                        Selected papers planned for publication in Scopus Indexed Proceedings.
                       </span>
                       <CTAButton
                         href="#submission"

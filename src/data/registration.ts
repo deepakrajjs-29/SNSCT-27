@@ -85,7 +85,7 @@ export const REGISTRATION_POLICIES = [
   },
   {
     title: "Extra Page Policy",
-    content: "Manuscripts exceeding the standard 10-page layout in the Springer format will incur extra page charges of ₹50 per additional page (for National authors) or $5 per additional page (for International authors)."
+    content: "Manuscripts exceeding the standard 10-page layout in the standard format will incur extra page charges of ₹50 per additional page (for National authors) or $5 per additional page (for International authors)."
   },
   {
     title: "Dual Presentation Modes (Physical / Online)",
