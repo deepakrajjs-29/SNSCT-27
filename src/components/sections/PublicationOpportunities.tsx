@@ -32,7 +32,7 @@ export const PublicationOpportunities: React.FC = () => {
   return (
     <section id="publication" className="py-20 lg:py-24 relative" style={{ backgroundColor: "#ffffff" }}>
       <div className="max-w-[1480px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
-        
+
         <SectionHeading
           badgeText="CONFERENCE PROCEEDINGS"
           title="Publication Opportunities"
@@ -43,13 +43,13 @@ export const PublicationOpportunities: React.FC = () => {
         {/* Academic Showcase with Image */}
         <div className="max-w-5xl mx-auto rounded-2xl bg-white border border-slate-200 shadow-xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12">
-            
+
             {/* Left: Book & Journal Showcase Image */}
             <div className="lg:col-span-5 relative min-h-[320px] lg:min-h-full overflow-hidden bg-gradient-to-br from-slate-900 via-navy-950 to-slate-900 flex flex-col items-center justify-center p-6 sm:p-8">
               <div className="relative group w-full flex justify-center">
                 <img
                   src="/scopus_proceedings.jpg"
-                  alt="International Conference Proceedings (Scopus Indexed) - Volumes I & II"
+                  alt="Scopus Indexed Conference Proceedings (Approval pending) - Volumes I & II"
                   className="w-full max-w-[320px] sm:max-w-[360px] h-auto object-contain rounded-xl shadow-2xl border border-white/10 transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
@@ -76,7 +76,7 @@ export const PublicationOpportunities: React.FC = () => {
                 </div>
 
                 <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  International Conference Proceedings (Scopus Indexed)
+                  Scopus Indexed Conference Proceedings (Approval pending)
                 </h3>
 
                 {/* Official Conditional Statement */}
@@ -86,7 +86,7 @@ export const PublicationOpportunities: React.FC = () => {
                 </div>
 
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  The conference proceedings will be submitted for indexing in major academic databases including EI Compendex, Scopus, INSPEC, and SCImago. Authors will receive electronic copy access upon final publication.
+                  The conference proceedings will be submitted for indexing in major academic databases including Scopus, INSPEC, and SCImago. Authors will receive electronic copy access upon final publication.
                 </p>
 
                 <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">

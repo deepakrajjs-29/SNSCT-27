@@ -31,7 +31,7 @@ export const AUTHOR_GUIDELINES = {
 };
 
 export const ETHICAL_GUIDELINES = {
-  heading: "Ethical Issues: Similarity and Machine Generated Content",
+  heading: "Ethical Issues: Similarity and AI Generated Content",
   subheading: "Academic Integrity, Originality, and Publication Ethics",
   similarityLimits: {
     overallLimit: "20%",
@@ -49,7 +49,7 @@ export const ETHICAL_GUIDELINES = {
       description: "All text, figures, diagrams, and tables must either belong directly to the authors or possess verified written copyright reprint permission. Non-benchmark datasets, clinical imagery, or proprietary schematics must cite explicit permission and source."
     },
     {
-      title: "Machine-Generated Content & Readability",
+      title: "AI Generated Content & Readability",
       description: "Manuscripts must be written in proficient English with meticulous grammar, spelling, and scientific coherence. Unedited AI-generated text exhibiting poor conceptual readability, synthetic phrasing, or factual hallucinations will result in immediate rejection."
     },
     {

@@ -105,7 +105,7 @@ export const REGISTRATION_POLICIES = [
   },
   {
     title: "Grievances & Payment Inquiries",
-    content: "Any registration grievances, payment receipt issues, or billing queries should be routed directly to the Organizing Secretary via email: os.snsect@gmail.com."
+    content: "Any registration grievances, payment receipt issues, or billing queries should be routed directly to the Organizing Secretary via email: snsect27@gmail.com."
   }
 ];
 

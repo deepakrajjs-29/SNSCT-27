@@ -22,8 +22,8 @@ export const CONFIG = {
   GOOGLE_MAP_EMBED_URL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.228514936495!2d76.9942735748098!3d11.096309989072972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f789d701f253%3A0xc3d5e2e88a0328b9!2sSNS%20College%20of%20Technology!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
   
   // Official Contact Emails
-  CONTACT_EMAIL: "snsect27@snsct.org",
-  GRIEVANCE_EMAIL: "os.snsect@gmail.com",
+  CONTACT_EMAIL: "snsect27@gmail.com",
+  GRIEVANCE_EMAIL: "snsect27@gmail.com",
   
   // Institution Web Portal
   INSTITUTION_URL: "https://snsct.org",
