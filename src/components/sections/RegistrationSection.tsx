@@ -4,12 +4,12 @@ import { CONFIG } from '../../data/config';
 import { CTAButton } from '../common/CTAButton';
 
 const TABLE_ROWS = [
-  { category: 'UG Student',                      national: '₹ 7,000',  international: '$ 100' },
-  { category: 'PG Student',                      national: '₹ 7,500',  international: '$ 125' },
-  { category: 'Academician / Research Scholar',  national: '₹ 8,500',  international: '$ 200' },
-  { category: 'Industry Expert',                 national: '₹ 10,000', international: '$ 225' },
-  { category: 'Listener',                        national: '₹ 3,000',  international: '$ 50'  },
-  { category: 'Co-author Registration',          national: '₹ 3,500',  international: '$ 60'  },
+  { category: 'UG Student', national: '₹ 7,000', international: '$ 100' },
+  { category: 'PG Student', national: '₹ 7,500', international: '$ 125' },
+  { category: 'Academician / Research Scholar', national: '₹ 8,500', international: '$ 200' },
+  { category: 'Industry Expert', national: '₹ 10,000', international: '$ 225' },
+  { category: 'Listener', national: '₹ 3,000', international: '$ 50' },
+  { category: 'Co-author Registration', national: '₹ 3,500', international: '$ 60' },
 ];
 
 export const RegistrationSection: React.FC = () => {
@@ -39,9 +39,8 @@ export const RegistrationSection: React.FC = () => {
           {TABLE_ROWS.map((row, idx) => (
             <div
               key={idx}
-              className={`grid grid-cols-3 items-center px-6 py-4.5 border-b border-slate-100 transition-colors ${
-                idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'
-              } hover:bg-yellow-50/40`}
+              className={`grid grid-cols-3 items-center px-6 py-4.5 border-b border-slate-100 transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'
+                } hover:bg-yellow-50/40`}
             >
               <div className="text-sm font-bold text-slate-800 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#c9a84c]" />
@@ -57,7 +56,7 @@ export const RegistrationSection: React.FC = () => {
 
           {/* Footer note inside table */}
           <div className="px-6 py-4 text-center text-xs font-medium text-slate-600 bg-slate-50 border-t border-slate-200">
-            * Registration fees inclusive of 18% GST &nbsp;|&nbsp; Registration deadline: 30th July 2026
+            * Registration fees inclusive of 18% GST &nbsp;|&nbsp; Registration deadline: 30th January 2027
           </div>
         </div>
 
