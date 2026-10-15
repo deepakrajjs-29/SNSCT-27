@@ -56,7 +56,7 @@ export const RegistrationSection: React.FC = () => {
 
           {/* Footer note inside table */}
           <div className="px-6 py-4 text-center text-xs font-medium text-slate-600 bg-slate-50 border-t border-slate-200">
-            * Registration fees inclusive of 18% GST &nbsp;|&nbsp; Registration deadline: 30th January 2027
+            * Registration fees inclusive of 18% GST &nbsp;|&nbsp; Registration deadline: 20 January 2027
           </div>
         </div>
 
