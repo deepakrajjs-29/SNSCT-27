@@ -176,7 +176,7 @@ npm run preview
   </a>
 
   <p align="center">
-    <a href="mailto:deepakrajjs29@gmail.com">
+    <a href="mailto:snsect27@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
     </a>
     &nbsp;&nbsp;
@@ -193,7 +193,7 @@ npm run preview
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=25,12,1&height=4&width=350" alt="bar" />
   
   <p>
-    📧 <b>Email:</b> <a href="mailto:deepakrajjs29@gmail.com">deepakrajjs29@gmail.com</a> • 
+    📧 <b>Email:</b> <a href="mailto:snsect27@gmail.com">snsect27@gmail.com</a> • 
     🐙 <b>GitHub:</b> <a href="https://github.com/deepakrajjs-29">@deepakrajjs-29</a> • 
     💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/deepak-raj-js/">Deepak Raj JS</a>
   </p>
