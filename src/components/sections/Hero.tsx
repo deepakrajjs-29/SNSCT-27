@@ -83,7 +83,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className="text-center p-3 rounded-xl bg-white/5 border border-white/5">
               <p className="text-[11px] font-bold uppercase tracking-widest mb-1 text-[#e8c872]">Submission Deadline</p>
-              <p className="text-sm sm:text-base font-bold text-white">{CONFERENCE_INFO.submissionDeadlineText}</p>
+              <p className="text-sm sm:text-base font-extrabold text-white">{CONFERENCE_INFO.submissionDeadlineText}</p>
             </div>
             <div className="text-center p-3 rounded-xl bg-white/5 border border-white/5">
               <p className="text-[11px] font-bold uppercase tracking-widest mb-1 text-[#e8c872]">Published In</p>

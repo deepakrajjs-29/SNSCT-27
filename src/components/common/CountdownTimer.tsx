@@ -59,27 +59,35 @@ export const CountdownTimer: React.FC<CountdownTimerProps> = ({
   const isDark = theme === 'dark';
 
   return (
-    <div className={`inline-flex flex-col sm:flex-row items-center gap-5 sm:gap-8 py-4 px-6 sm:px-8 rounded-xl border ${
+    <div className={`inline-flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-8 py-4 px-6 sm:px-8 rounded-2xl border shadow-xl ${
       isDark
-        ? 'bg-navy-900/60 border-white/10 text-slate-900'
+        ? 'bg-[#091524]/85 backdrop-blur-xl border-white/15 text-white'
         : 'bg-slate-50 border-slate-200 text-slate-800'
     }`}>
-      {/* Label */}
-      <div className="flex items-center gap-2.5 text-left">
-        <Clock className={`w-4 h-4 shrink-0 ${isDark ? 'text-[#c9a84c]' : 'text-[#c9a84c]'}`} />
-        <div>
-          <span className="text-xs font-bold uppercase tracking-widest block leading-tight">
+      {/* Label & Date aligned with Clock */}
+      <div className="flex items-center gap-3 text-left">
+        <div className={`p-2 rounded-xl flex items-center justify-center shrink-0 ${
+          isDark 
+            ? 'bg-[#c9a84c]/20 text-[#f3d688] border border-[#c9a84c]/30' 
+            : 'bg-[#c9a84c]/10 text-[#c9a84c] border border-[#c9a84c]/20'
+        }`}>
+          <Clock className="w-5 h-5 shrink-0" />
+        </div>
+        <div className="flex flex-col justify-center">
+          <span className={`text-[10px] sm:text-[11px] font-bold uppercase tracking-widest block leading-tight ${
+            isDark ? 'text-[#e8c872]' : 'text-[#8a6a1c]'
+          }`}>
             {label}
           </span>
-          <span className={`text-[11px] font-medium block leading-tight mt-0.5 ${
-            isDark ? 'text-slate-400' : 'text-slate-500'
+          <span className={`text-sm sm:text-base font-extrabold block leading-snug mt-0.5 tracking-wide ${
+            isDark ? 'text-white drop-shadow-sm' : 'text-slate-900'
           }`}>
             {sublabel}
           </span>
         </div>
       </div>
 
-      <div className={`hidden sm:block h-8 w-px ${isDark ? 'bg-white/10' : 'bg-slate-300'}`} />
+      <div className={`hidden sm:block h-9 w-px ${isDark ? 'bg-white/15' : 'bg-slate-300'}`} />
 
       {/* Countdown values */}
       <div className="flex items-center gap-5 sm:gap-7">
