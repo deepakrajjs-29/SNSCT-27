@@ -21,7 +21,7 @@ export const CONFERENCE_INFO: ConferenceMetadata = {
   location: "Coimbatore – 641 035, Tamil Nadu, India",
   address: "SNS Kalvi Nagar, Sathy Main Road (NH-209), Vazhiampalayam, Saravanampatti Post, Coimbatore - 641 035, Tamil Nadu, India",
   datesText: "11 – 12 March 2027",
-  submissionDeadlineText: "30 November 2026",
+  submissionDeadlineText: "15 December 2026",
   publicationBannerText: "Scopus Indexed · Peer Reviewed · Two Volumes",
   publicationDisclaimer: "Selected high-quality papers are planned for publication in Scopus-indexed conference proceedings, subject to peer review, quality checks, and final approval.",
 };

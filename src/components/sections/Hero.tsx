@@ -119,7 +119,7 @@ export const Hero: React.FC = () => {
           <CountdownTimer
             targetIsoDate={CONFIG.SUBMISSION_DEADLINE_ISO}
             label="Submission Deadline"
-            sublabel="30 November 2026"
+            sublabel={CONFERENCE_INFO.submissionDeadlineText}
             theme="dark"
           />
 

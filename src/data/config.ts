@@ -29,7 +29,7 @@ export const CONFIG = {
   DEPARTMENT_URL: "https://snsct.org/department-of-electronics-and-communication-engineering/",
 
   // Dynamic Deadline Timestamps (IST)
-  SUBMISSION_DEADLINE_ISO: "2026-11-30T23:59:59+05:30",
+  SUBMISSION_DEADLINE_ISO: "2026-12-15T23:59:59+05:30",
   CONFERENCE_START_ISO: "2027-03-11T09:00:00+05:30",
   CONFERENCE_END_ISO: "2027-03-12T18:00:00+05:30",
 };

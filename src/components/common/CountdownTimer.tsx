@@ -19,7 +19,7 @@ interface TimeRemaining {
 export const CountdownTimer: React.FC<CountdownTimerProps> = ({
   targetIsoDate,
   label = "Submission Deadline",
-  sublabel = "30 November 2026",
+  sublabel = "15 December 2026",
   theme = 'dark'
 }) => {
   const calculateTime = (): TimeRemaining => {

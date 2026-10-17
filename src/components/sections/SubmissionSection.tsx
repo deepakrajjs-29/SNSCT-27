@@ -1,6 +1,7 @@
 import React from 'react';
 import { SectionHeading } from '../common/SectionHeading';
 import { CONFIG } from '../../data/config';
+import { CONFERENCE_INFO } from '../../data/conference';
 import { ShieldCheck } from 'lucide-react';
 import { CTAButton } from '../common/CTAButton';
 
@@ -68,7 +69,7 @@ export const SubmissionSection: React.FC = () => {
                 Submit via Microsoft CMT
               </CTAButton>
               <span className="text-[11px] text-slate-500 font-medium">
-                Deadline: 30 November 2026
+                Deadline: {CONFERENCE_INFO.submissionDeadlineText}
               </span>
             </div>
           </div>
