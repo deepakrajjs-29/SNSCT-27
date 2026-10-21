@@ -90,10 +90,10 @@ export const SubmissionSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Microsoft CMT Note */}
-          <div className="pt-2 text-center text-xs text-slate-500">
+          {/* Microsoft CMT Acknowledgment */}
+          <div className="pt-2 text-center text-xs text-slate-500 max-w-3xl mx-auto leading-relaxed">
             <p>
-              Microsoft CMT (Conference Management Toolkit) is used for paper submission, double-blind peer review, and author communication for SNSECT’27.
+              <span className="font-semibold text-slate-700">CMT ACKNOWLEDGEMENT:</span> The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
             </p>
           </div>
         </div>
