@@ -64,10 +64,10 @@ export const RegistrationSection: React.FC = () => {
         <div className="max-w-4xl mx-auto flex justify-center mt-8">
           <CTAButton
             href={CONFIG.REGISTRATION_URL}
-            isExternal={true}
+            isExternal={CONFIG.REGISTRATION_URL !== '#'}
             variant="primary"
             size="md"
-            icon="external"
+            icon={CONFIG.REGISTRATION_URL !== '#' ? 'external' : 'none'}
             className="w-full sm:w-auto"
             disabledNotice="Registration portal link will be communicated in acceptance notification"
           >

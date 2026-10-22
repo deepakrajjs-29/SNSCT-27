@@ -59,10 +59,10 @@ export const SubmissionSection: React.FC = () => {
             <div className="shrink-0 flex flex-col items-center gap-1.5 w-full sm:w-auto">
               <CTAButton
                 href={CONFIG.SUBMISSION_URL}
-                isExternal={true}
+                isExternal={CONFIG.SUBMISSION_URL !== '#'}
                 variant="primary"
                 size="lg"
-                icon="external"
+                icon={CONFIG.SUBMISSION_URL !== '#' ? 'external' : 'none'}
                 className="w-full sm:w-auto"
                 disabledNotice="Microsoft CMT Portal link to be updated as per schedule"
               >

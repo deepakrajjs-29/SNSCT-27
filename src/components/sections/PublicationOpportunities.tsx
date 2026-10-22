@@ -101,11 +101,12 @@ export const PublicationOpportunities: React.FC = () => {
                   </CTAButton>
                   <CTAButton
                     href={CONFIG.SUBMISSION_URL}
-                    isExternal={true}
+                    isExternal={CONFIG.SUBMISSION_URL !== '#'}
                     variant="outline"
                     size="md"
-                    icon="external"
+                    icon={CONFIG.SUBMISSION_URL !== '#' ? 'external' : 'none'}
                     className="w-full sm:w-auto"
+                    disabledNotice="Microsoft CMT Portal link to be updated as per schedule"
                   >
                     Submit Paper
                   </CTAButton>

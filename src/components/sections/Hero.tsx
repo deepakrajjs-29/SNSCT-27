@@ -94,9 +94,9 @@ export const Hero: React.FC = () => {
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4 mb-10 w-full max-w-md sm:max-w-none">
             <a
-              href={CONFIG.SUBMISSION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
+              target={CONFIG.SUBMISSION_URL === '#' ? undefined : '_blank'}
+              rel={CONFIG.SUBMISSION_URL === '#' ? undefined : 'noopener noreferrer'}
               className="w-full sm:w-auto px-8 py-3.5 text-sm sm:text-base font-extrabold uppercase tracking-wider rounded-xl shadow-[0_4px_20px_rgba(201,168,76,0.35)] transition-all duration-300 hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
               style={{ backgroundColor: '#c9a84c', color: '#091322' }}
             >
@@ -104,9 +104,9 @@ export const Hero: React.FC = () => {
               <span className="text-xs">↗</span>
             </a>
             <a
-              href={CONFIG.REGISTRATION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={CONFIG.REGISTRATION_URL === '#' ? '#registration' : CONFIG.REGISTRATION_URL}
+              target={CONFIG.REGISTRATION_URL === '#' ? undefined : '_blank'}
+              rel={CONFIG.REGISTRATION_URL === '#' ? undefined : 'noopener noreferrer'}
               className="w-full sm:w-auto px-8 py-3.5 text-sm sm:text-base font-extrabold uppercase tracking-wider rounded-xl border-2 transition-all duration-300 hover:bg-white/15 active:scale-95 shadow-md flex items-center justify-center gap-2"
               style={{ borderColor: '#c9a84c', color: '#f3d688', backgroundColor: 'rgba(201, 168, 76, 0.08)' }}
             >

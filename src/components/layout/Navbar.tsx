@@ -116,9 +116,9 @@ export const Navbar: React.FC = () => {
           {/* Desktop CTA Action Buttons */}
           <div className="hidden sm:flex items-center gap-3 shrink-0">
             <a
-              href={CONFIG.REGISTRATION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={CONFIG.REGISTRATION_URL === '#' ? '#registration' : CONFIG.REGISTRATION_URL}
+              target={CONFIG.REGISTRATION_URL === '#' ? undefined : '_blank'}
+              rel={CONFIG.REGISTRATION_URL === '#' ? undefined : 'noopener noreferrer'}
               className={`px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg transition-all shadow-sm ${
                 isScrolled
                   ? 'text-[#b8963e] hover:text-[#97782c] hover:bg-amber-50/80 border border-[#c9a84c] bg-white'
@@ -128,9 +128,9 @@ export const Navbar: React.FC = () => {
               Register
             </a>
             <a
-              href={CONFIG.SUBMISSION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
+              target={CONFIG.SUBMISSION_URL === '#' ? undefined : '_blank'}
+              rel={CONFIG.SUBMISSION_URL === '#' ? undefined : 'noopener noreferrer'}
               className="px-5 py-2.5 text-xs font-extrabold uppercase tracking-wider bg-[#c9a84c] hover:bg-[#e8c872] text-slate-950 rounded-lg transition-all shadow-md hover:scale-105"
             >
               Submit Paper
@@ -140,9 +140,9 @@ export const Navbar: React.FC = () => {
           {/* Mobile Hamburger Toggle */}
           <div className="flex lg:hidden items-center gap-2">
             <a
-              href={CONFIG.SUBMISSION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
+              target={CONFIG.SUBMISSION_URL === '#' ? undefined : '_blank'}
+              rel={CONFIG.SUBMISSION_URL === '#' ? undefined : 'noopener noreferrer'}
               className="sm:hidden px-3 py-1.5 text-xs font-bold rounded-md bg-[#b8963e] text-slate-950"
             >
               Submit
@@ -186,18 +186,14 @@ export const Navbar: React.FC = () => {
 
             <div className="pt-4 mt-2 border-t border-white/10 grid grid-cols-2 gap-2">
               <a
-                href={CONFIG.REGISTRATION_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={CONFIG.REGISTRATION_URL === '#' ? '#registration' : CONFIG.REGISTRATION_URL}
                 onClick={closeMobileMenu}
                 className="px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-center border border-[#c9a84c]/50 text-[#f3d688] bg-white/5 rounded-lg"
               >
                 Register
               </a>
               <a
-                href={CONFIG.SUBMISSION_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
                 onClick={closeMobileMenu}
                 className="px-4 py-2.5 text-xs font-extrabold uppercase tracking-wider text-center bg-[#c9a84c] text-slate-950 rounded-lg shadow-md"
               >

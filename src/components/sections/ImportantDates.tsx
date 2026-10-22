@@ -78,9 +78,7 @@ export const ImportantDates: React.FC = () => {
         <p className="mt-8 text-center text-xs text-slate-600">
           All deadlines are in <strong className="text-slate-800">IST (UTC+5:30)</strong>.&ensp;
           <a
-            href={CONFIG.SUBMISSION_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
             className="font-bold hover:underline underline-offset-2 text-[#b8963e]"
           >
             Submit via Microsoft CMT →

@@ -6,11 +6,11 @@
 
 export const CONFIG = {
   // Submission portal (e.g. Microsoft CMT)
-  SUBMISSION_URL: "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F", // Microsoft CMT Portal URL
+  SUBMISSION_URL: "#", // Portal link to be updated as per schedule
   
   // Registration and Payment Portals
-  REGISTRATION_URL: "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F", // Registration Form / Portal URL
-  PAYMENT_URL: "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F", // Payment Gateway / Portal URL
+  REGISTRATION_URL: "#", // Registration Form / Portal URL
+  PAYMENT_URL: "#", // Payment Gateway / Portal URL
   
   // Conference Proceedings Templates
   WORD_TEMPLATE_URL: "https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines", // Proceedings Word Template Guidelines
