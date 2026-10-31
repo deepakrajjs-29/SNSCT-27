@@ -198,6 +198,8 @@ export const Navbar: React.FC = () => {
                 href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
                 onClick={closeMobileMenu}
                 className="px-4 py-2.5 text-xs font-extrabold uppercase tracking-wider text-center bg-[#c9a84c] text-slate-950 rounded-lg shadow-md"
+                target={CONFIG.SUBMISSION_URL === '#' ? undefined : '_blank'}
+                rel={CONFIG.SUBMISSION_URL === '#' ? undefined : 'noopener noreferrer'}
               >
                 Submit Paper
               </a>

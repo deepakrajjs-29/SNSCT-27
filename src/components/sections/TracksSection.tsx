@@ -3,6 +3,7 @@ import { SectionHeading } from '../common/SectionHeading';
 import { CONFERENCE_TRACKS } from '../../data/tracks';
 import { Search, Plus, Minus, CheckCircle, Sparkles, Layers } from 'lucide-react';
 import { CTAButton } from '../common/CTAButton';
+import { CONFIG } from '../../data/config';
 
 export const TracksSection: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -138,10 +139,11 @@ export const TracksSection: React.FC = () => {
                         Selected papers planned for publication in Scopus Indexed Proceedings.
                       </span>
                       <CTAButton
-                        href="#submission"
+                        href={CONFIG.SUBMISSION_URL === '#' ? '#submission' : CONFIG.SUBMISSION_URL}
+                        isExternal={CONFIG.SUBMISSION_URL !== '#'}
                         variant="primary"
                         size="sm"
-                        icon="arrow"
+                        icon={CONFIG.SUBMISSION_URL !== '#' ? 'external' : 'arrow'}
                       >
                         Submit to Track {track.number}
                       </CTAButton>

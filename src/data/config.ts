@@ -6,7 +6,7 @@
 
 export const CONFIG = {
   // Submission portal (e.g. Microsoft CMT)
-  SUBMISSION_URL: "#", // Portal link to be updated as per schedule
+  SUBMISSION_URL: "https://cmt3.research.microsoft.com/SNSECT2027", // Portal link to be updated as per schedule
   
   // Registration and Payment Portals
   REGISTRATION_URL: "https://cmt3.research.microsoft.com/SNSECT2027", // Registration Form / Portal URL
