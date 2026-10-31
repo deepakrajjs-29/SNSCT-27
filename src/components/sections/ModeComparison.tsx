@@ -3,6 +3,7 @@ import { SectionHeading } from '../common/SectionHeading';
 import { PRESENTATION_MODES } from '../../data/registration';
 import { CheckCircle, AlertCircle } from 'lucide-react';
 import { CTAButton } from '../common/CTAButton';
+import { CONFIG } from '../../data/config';
 
 export const ModeComparison: React.FC = () => {
   const physical = PRESENTATION_MODES.physical;
@@ -53,7 +54,9 @@ export const ModeComparison: React.FC = () => {
                 <span>{physical.note}</span>
               </div>
               <CTAButton
-                href="#registration"
+                href={CONFIG.REGISTRATION_URL === '#' ? '#registration' : CONFIG.REGISTRATION_URL}
+                isExternal={CONFIG.REGISTRATION_URL !== '#'}
+                icon={CONFIG.REGISTRATION_URL !== '#' ? 'external' : 'arrow'}
                 variant="primary"
                 size="md"
                 className="w-full"
@@ -95,7 +98,9 @@ export const ModeComparison: React.FC = () => {
                 <span>{online.note}</span>
               </div>
               <CTAButton
-                href="#registration"
+                href={CONFIG.REGISTRATION_URL === '#' ? '#registration' : CONFIG.REGISTRATION_URL}
+                isExternal={CONFIG.REGISTRATION_URL !== '#'}
+                icon={CONFIG.REGISTRATION_URL !== '#' ? 'external' : 'arrow'}
                 variant="outline"
                 size="md"
                 className="w-full"

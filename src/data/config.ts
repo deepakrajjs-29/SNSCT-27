@@ -9,7 +9,7 @@ export const CONFIG = {
   SUBMISSION_URL: "#", // Portal link to be updated as per schedule
   
   // Registration and Payment Portals
-  REGISTRATION_URL: "#", // Registration Form / Portal URL
+  REGISTRATION_URL: "https://cmt3.research.microsoft.com/SNSECT2027", // Registration Form / Portal URL
   PAYMENT_URL: "#", // Payment Gateway / Portal URL
   
   // Conference Proceedings Templates

@@ -189,6 +189,8 @@ export const Navbar: React.FC = () => {
                 href={CONFIG.REGISTRATION_URL === '#' ? '#registration' : CONFIG.REGISTRATION_URL}
                 onClick={closeMobileMenu}
                 className="px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-center border border-[#c9a84c]/50 text-[#f3d688] bg-white/5 rounded-lg"
+                target={CONFIG.REGISTRATION_URL === '#' ? undefined : '_blank'}
+                rel={CONFIG.REGISTRATION_URL === '#' ? undefined : 'noopener noreferrer'}
               >
                 Register
               </a>
